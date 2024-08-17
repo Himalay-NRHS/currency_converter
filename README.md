@@ -13,7 +13,7 @@ This is a simple currency converter application built using React. The app allow
 
 1. **Clone the repository:**
 
-    
+    ``` 
     git clone https://github.com/Himalay-NRHS/currency_converter.git
     ```
 
