@@ -1,0 +1,263 @@
+#root,body,html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+background-image: url('../public/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg');
+font-family: "Roboto Condensed", sans-serif;
+}
+.card{
+  width: 50%;
+  height:40%;
+  background-color: #3e4a61;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.input-container{
+
+  width: 90%;
+  height: 20%;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.swap-button{
+background-color: #b6e1e0;
+border: none;
+height: 14%;
+width: 12%;
+font-family: "Roboto Condensed", sans-serif;
+border-radius: 10px;
+position: absolute;
+
+border: solid 1px pink;
+cursor: pointer;
+
+}
+.output-container{
+  width: 90%;
+  height: 20%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.convert-button{
+  background-color: #35bcbf;
+  border: none;
+  height: 12%;
+  width: 90%;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+  margin-top: 5px;
+  border-radius: 10px;
+  
+}
+.input-label{
+
+margin-left: 10px;
+
+color: #708090;
+
+}
+.output-label{
+  margin-left: 10px;
+ 
+  color: #708090;
+  
+
+}
+.options{
+margin-right: 15px;
+margin-top: 15px;
+background-color: red;
+height: 50%;
+width: 10%;
+border: 2px solid #708090;
+border-radius: 5px;
+}
+#from{
+  width: 100%;
+  height: 100%;
+  border: none;
+
+}
+#to{
+  width: 100%;
+  height: 100%;
+  border: none;
+
+}
+.input{
+ position:absolute;
+ margin-top: 22px;
+ margin-left: 10px;
+ width: 75%;
+ height: 11%;
+}
+.innerinput{
+  border: none;
+}
+.output{
+  position:absolute;
+  margin-top: 25px;
+  margin-left: 10px;
+  width: 75%;
+  height: 12%;
+}
+
+@media(max-width:700px){
+
+  #root,body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  background-image: url('../public/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg');
+  font-family: "Roboto Condensed", sans-serif;
+  }
+  .card{
+    width: 97%;
+    height:35%;
+    background-color: #3e4a61;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .input-container{
+  
+    width: 90%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .swap-button{
+  background-color: #b6e1e0;
+  border: none;
+  height: 14%;
+  width: 12%;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 10px;
+  position: absolute;
+  
+  border: solid 1px pink;
+  cursor: pointer;
+  
+  }
+  .output-container{
+    width: 90%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .convert-button{
+    background-color: #35bcbf;
+    border: none;
+    height: 12%;
+    width: 90%;
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+  }
+  .input-label{
+  
+  margin-left: 10px;
+  
+  color: #708090;
+  
+  }
+  .output-label{
+    margin-left: 10px;
+   
+    color: #708090;
+    
+  
+  }
+  .options{
+  margin-right: 15px;
+  margin-top: 15px;
+  background-color: red;
+  height: 50%;
+  width: 13%;
+  border: 2px solid #708090;
+  border-radius: 5px;
+  }
+  #from{
+    width: 100%;
+    height: 100%;
+    border: none;
+  
+  }
+  #to{
+    width: 100%;
+    height: 100%;
+    border: none;
+  
+  }
+  .input{
+   position:absolute;
+   margin-top: 22px;
+   margin-left: 10px;
+   width: 60%;
+   height: 9%;
+  }
+  .innerinput{
+    border: none;
+  }
+  .output{
+    position:absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 75%;
+    height: 12%;
+  }
+  
+
+
+}
