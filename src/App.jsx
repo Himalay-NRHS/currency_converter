@@ -40,12 +40,13 @@ const q=inputAmount;
 setInputAmount(outputAmount);
 setOutputAmount(inputAmount*rate);
 
-function handleinput(e){
-  if (Number.isInteger(e.target.value))
+
+
+}
+
+const handleinput =(e)=>{
+ 
       setInputAmount(e.target.value)
-  }
-
-
 }
 
   return (
