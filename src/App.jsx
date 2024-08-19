@@ -40,7 +40,7 @@ const q=inputAmount;
 setInputAmount(outputAmount);
 setOutputAmount(inputAmount*rate);
 
-const handelinput(e){
+function handleinput(e){
   if (Number.isInteger(e.target.value))
       setInputAmount(e.target.value)
   }
@@ -56,7 +56,7 @@ const handelinput(e){
           <div className='input-container'>
             <label className='input-label' htmlFor="from">from</label>
             <div className='input'>
-              <input type="number" id="from" name="from"  placeholder="type here" defaultValue={"TYPE"} className='innerinput' value={inputAmount} onChange={handelinput}></input>
+              <input type="number" id="from" name="from"  placeholder="type here" defaultValue={"TYPE"} className='innerinput' value={inputAmount} onChange={handleinput}></input>
             </div>
             <div className='options'>
               <select name="from" id="from" defaultValue="USD" value={fromCurrency} onChange={(e)=>{setFromCurrency(e.target.value);setOutputAmount(0);setInputAmount(0);}}>
